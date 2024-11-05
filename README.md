@@ -15,6 +15,8 @@
 
 ## 使用方法
 
+以下に概要レベルでの使用方法を記載します。
+
 ### 1. 設問ファイルの準備
 
 1. `scrum_maturity_questions.csv` ファイルを [Googleドライブ](https://drive.google.com/) にアップロードします。
@@ -32,7 +34,7 @@
 
 ### 4. スクラム成熟度レポートの生成
 
-1. `scrum_maturity_report_prompt.md` を参照し、レポート生成のためのプロンプトを設定します。
+1. `scrum_maturity_report_prompt.md` を参照し、レポート生成のためのプロンプトを chatGPT や GPTs に設定します。
 2. プロンプトの指示に従って、CSVデータを投入してスクラム成熟度レポートを生成します。
 
 ## 免責事項
