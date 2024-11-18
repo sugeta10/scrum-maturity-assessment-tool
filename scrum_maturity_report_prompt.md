@@ -116,11 +116,11 @@ data = data.astype(int)
 # 質問番号に基づくサブカテゴリーのスコアを集計
 sub_categories = {
     'スプリントプランニング': data.filter(regex='^1-').sum().sum(),
-    'スプリントレビュー': data.filter(regex='^2-').sum().sum(),
-    'デイリースクラム': data.filter(regex='^3-').sum().sum(),
+    'デイリースクラム': data.filter(regex='^2-').sum().sum(),
+    'スプリントレビュー': data.filter(regex='^3-').sum().sum(),
     'スプリントレトロスペクティブ': data.filter(regex='^4-').sum().sum(),
-    '開発者': data.filter(regex='^5-').sum().sum(),
-    'プロダクトオーナー': data.filter(regex='^6-').sum().sum(),
+    'プロダクトオーナー': data.filter(regex='^5-').sum().sum(),
+    '開発者': data.filter(regex='^6-').sum().sum(),
     'スクラムマスター': data.filter(regex='^7-').sum().sum(),
     'プロダクトバックログ': data.filter(regex='^8-').sum().sum(),
     'スプリントバックログ': data.filter(regex='^9-').sum().sum(),
